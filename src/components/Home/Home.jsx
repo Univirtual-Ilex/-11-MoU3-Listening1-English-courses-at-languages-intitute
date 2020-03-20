@@ -10,15 +10,15 @@ const Home_base = function ({staticContext, ...props}) { // se le pasan las prop
     return (
         <Container {...props}  row bgImage="src/bg.png" >
 
-                    <div className='bloque-izquierdo'>
+                    <ICol className='bloque-izquierdo entrada-top-Y-2' mt={2}>
                         <div className='bloque-izquierdo-container'>
                             <h1> English courses at <br></br> a language institute </h1>
                             <p>
                             This activity count with 3 parts, you must pass each <br></br> exercise to finish <br></br> <strong>Time to practice your listening skill!</strong></p>
                             <ButtonLink to='/actividad1'>Start</ButtonLink>
                         </div>
-                    </div>
-                    <div className='bloque-derecho'>
+                    </ICol>
+                    <div className='bloque-derecho entrada-top-Y'>
                     	<ICol mt={3} >
 	                        <figure>
 	                            <img src='./src/cover.png' alt='Logo' />    
