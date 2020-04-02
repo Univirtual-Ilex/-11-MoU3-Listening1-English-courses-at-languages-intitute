@@ -88,7 +88,7 @@ const Actividad3_base = ({staticContext,...props}) => {
                 <ICol pt={1}><ButtonDown onClick={checkActivity} text={'CHECK'} /></ICol>
             </IRow>
 
-            <Modal visible={modalFlag} ok={ok} err={err} w={25} repeatUrl={'/actividad3'} finished={ok} />
+            <Modal visible={modalFlag} ok={ok} err={err} w={25} repeatUrl={'#/actividad3'} finished={ok} />
 
         </Container>
 

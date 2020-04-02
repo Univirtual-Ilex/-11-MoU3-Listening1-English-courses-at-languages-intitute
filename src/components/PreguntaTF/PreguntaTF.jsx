@@ -15,7 +15,7 @@ const PreguntaTF_base = ({passed ,visibility,answers,...props}) => {
     
     return (
         <div {...props}>
-            <Modal visible={visibility} w={35} err={!passed} ok={passed} repeatUrl='/actividad1' nxtUrl='/actividad2'>
+            <Modal visible={visibility} w={35} err={!passed} ok={passed} repeatUrl='#/actividad1' nxtUrl='#/actividad2'>
             	
                 {
                     answers.map((question, index) => {
