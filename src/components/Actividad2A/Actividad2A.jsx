@@ -110,7 +110,7 @@ const Actividad2A_base = ({staticContext, ...props}) => {
         	</div>
             <div className="" > 
 	            <UiButtonsContainer>
-	                <ButtonUi icon='ilx-ayuda' tooltip='Recoradar pooner esto' />
+	                <ButtonUi icon='ilx-ayuda' tooltip='Complete the chart with the information from the video you watched' />
 	                <ButtonUi icon='ilx-volver' tooltip='Start Again' onClick={() => window.location.reload()} />
 	            </UiButtonsContainer>
 	            <IRow pt={1.5} className="text-center">

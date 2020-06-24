@@ -30,7 +30,7 @@ const data = [
     },
     {
       "id": 3,
-      "audio": "media/audio2.mp3",
+      "audio": "media/audio3.mp3",
       "status": 0,
       "rigth": 0,
       "button1": {
